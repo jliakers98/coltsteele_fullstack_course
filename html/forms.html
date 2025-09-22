@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="https://www.reddit.com/search">
+        <p>
+            <label for="search">Search:</label>
+            <input name="q" id="search" type="text" placeholder="Search...">
+        </p>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>More inputs</h2>
+    <form action="go">
+        <p>
+            <label for="agree">Agree:</label>
+            <input type="checkbox" id="agree" name="agree_tos" checked>
+        </p>
+        <p>
+            <label for="l">L</label>
+            <input type="radio" name="size" id="l" value="size_l">
+            <label for="xl">Xl</label>
+            <input type="radio" name="size" id="xl" value="size_xl">
+            <label for="xxl">Xxl</label>
+            <input type="radio" name="size" id="xxl" value="size_xxl">
+        </p>
+        <p>
+            <label for="vegetable">Select a vegetable:</label>
+            <select name="vegetable" id="vegetable">
+                <option value="turnip">Turnip</option>
+                <option value="potato" selected>Potato</option>
+                <option value="egg">Egg</option>
+            </select>
+        </p>
+        <p>
+            <label for="cheese">Amount of cheese:</label>
+            <input type="range" id="cheese" name="cheese" min="1" max="10">
+        </p>
+        <p>
+            <label for="textarea">Message:</label>
+            <textarea id="textarea" name="text" rows="10" cols="50" placeholder="placeholder text"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+    </form>
+    <h2>Validation demo</h2>
+    <form action="dummy">
+        <label for="first">Enter first name:</label>
+        <input type="text" name="first" id="first" required="required">
+        <p>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" required="required" minlength="5" maxlength="10">
+        </p>
+        <p>
+            <label for="email">Enter email:</label>
+            <input type="email" name="email" id="email" required="required">
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

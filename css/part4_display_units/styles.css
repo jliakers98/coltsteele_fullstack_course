@@ -1,0 +1,28 @@
+h1 {
+    background-color: blanchedalmond;
+    border: 0.05rem solid black;
+    padding: 0 1rem;
+    display: inline;
+    border-radius: 1rem;
+    font-size: 24pt;
+}
+
+p {
+    font-size: 10pt;
+}
+
+span {
+    background-color: antiquewhite;
+    border: 0.05rem solid black;
+    padding: 0 1rem;
+    display: inline-block;
+    border-radius: 1rem;
+}
+
+.ems {
+    font-size: 1.5em;
+}
+
+.rems {
+    font-size: 1.5rem;
+}
