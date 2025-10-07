@@ -101,3 +101,10 @@
 //     total += i;
 // }
 // console.log(`Total score= ${total}`)
+
+//      Scope
+// let and const are both block scoped (not accessible outside of a block)
+// var is not block scoped (old)
+// closest version is used in a block, ie if a duplicate name is used, the one inside the block will be used
+
+// nested functions have access to its parents variables (lexical scope)

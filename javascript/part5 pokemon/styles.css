@@ -1,0 +1,13 @@
+body {
+    color: aliceblue;
+    background-color: rgb(43, 43, 43);
+    text-align: center;
+}
+
+.pokemon {
+    display: inline-block;
+}
+
+.pokemon img {
+    display: block;
+}
